@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.CreateEncrease">
+    <StackLayout Padding="10" BackgroundColor="black">
+        <StackLayout Padding="5">
+            <Label Text="Источник" FontSize="26" TextColor="white"></Label>
+            <Entry Placeholder="Введите название"  x:Name="enterName" PlaceholderColor="White" TextColor="White"></Entry>
+            <Label Text="Дата расхода" FontSize="26" TextColor="White"></Label>
+            <DatePicker x:Name="enterDate" TextColor="white"></DatePicker>
+            <Label Text="Укажите категорию расхода" FontSize="26" TextColor="White"></Label>
+            <Picker x:Name="pickerOfCategories" ItemsSource="{Binding}" ItemDisplayBinding="{Binding Name}" Title="Выберите категорию" TitleColor="white">
+            </Picker>
+            <Label Text="Укажите сумму расхода" FontSize="26" TextColor="White"></Label>
+            <Entry Keyboard="Numeric" Placeholder="сумма" x:Name="enterDesc" PlaceholderColor="White" TextColor="White"></Entry>
+            <Button Text="Добавить расход " BackgroundColor="NavajoWhite" TextColor="Black" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

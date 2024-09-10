@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.CategoriesPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10" BackgroundColor="Black">
+            <StackLayout>
+                <Label Text="Категории операций" HorizontalOptions="Center" FontSize="26" TextColor="white"></Label>
+                <Button Text="Добавить категорию" BackgroundColor="NavajoWhite" Margin="10,0,10,0" TextColor="black" Clicked="Button_Clicked"></Button>
+            </StackLayout>
+            <StackLayout Margin="5,0,5,15" BackgroundColor="white">
+                <ListView HasUnevenRows="True" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="categoriesList" ItemsSource="{Binding}" ItemSelected="categoriesList_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="white" WidthRequest="650">
+                                        <StackLayout BackgroundColor="NavajoWhite" Margin="0,10,0,5" Padding="5" >
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="Категория: " FontSize="22" TextColor="black"/>
+                                                <Label Text="{Binding Name}" FontSize="22" TextColor="black"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

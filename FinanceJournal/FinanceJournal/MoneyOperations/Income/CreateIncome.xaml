@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.CreateIncome">
+    <StackLayout Padding="10" BackgroundColor="black">
+        <StackLayout Padding="5">
+            <Label Text="Источник" FontSize="26" TextColor="White"></Label>
+            <Entry Placeholder="Введите название"  x:Name="enterName" TextColor="White" PlaceholderColor="White" ></Entry>
+            <Label Text="Дата начисления дохода" FontSize="26" TextColor="White"></Label>
+            <DatePicker x:Name="enterDate" TextColor="White" ></DatePicker>
+            <Label Text="Укажите категорию дохода" FontSize="26" TextColor="White"></Label>
+            <Picker x:Name="pickerOfCategories" TextColor="White" ItemsSource="{Binding}" ItemDisplayBinding="{Binding Name}" Title="Выберите категорию..." TitleColor="White">
+            </Picker>
+            <Label Text="Укажите сумму дохода" FontSize="26" TextColor="White"></Label>
+            <Entry Keyboard="Numeric" Placeholder="укажите сумму" x:Name="enterDesc" TextColor="White" PlaceholderColor="White"></Entry>
+            <Button Text="Добавить доход " BackgroundColor="NavajoWhite" TextColor="Black" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.IncomesPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10" BackgroundColor="Black">
+            <StackLayout>
+                <Label Text="Мои доходы" HorizontalOptions="Center" FontSize="26" TextColor="White"></Label>
+                <Button Text="Добавить доход" BackgroundColor="NavajoWhite" Margin="10,0,10,0" TextColor="Black" Clicked="Button_Clicked"></Button>
+                <Label Text="Отсортировать по категориям " VerticalOptions="Center" HorizontalOptions="Center" FontSize="22" TextColor="White"></Label>
+                <Picker x:Name="pickerOfCategories" ItemsSource="{Binding}" ItemDisplayBinding="{Binding Name}" TitleColor="White" Title="Выберите категорию..." TextColor="White">
+                </Picker>
+                <Button Text="Сравнить категорию" BackgroundColor="NavajoWhite" Margin="5,0,5,0" TextColor="Black" Clicked="Button_Clicked_1"></Button>
+            </StackLayout>
+            <StackLayout Margin="5,0,5,15" BackgroundColor="White">
+                <ListView HasUnevenRows="True" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="incomesList" ItemsSource="{Binding}" ItemSelected="incomesList_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White" WidthRequest="650">
+                                        <StackLayout BackgroundColor="NavajoWhite" Margin="0,10,0,5" Padding="5" >
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="Название: " FontSize="22" TextColor="Black"/>
+                                                <Label Text="{Binding Name}" FontSize="22" TextColor="Black"/>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="Сумма: " FontSize="22" TextColor="Black"/>
+                                                <Label Text="{Binding Amount}" FontSize="22" TextColor="Black"/>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="Категория: " FontSize="22" TextColor="Black"/>
+                                                <Label Text="{Binding Category}" FontSize="22" TextColor="Black"/>
+                                            </StackLayout>
+                                            
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

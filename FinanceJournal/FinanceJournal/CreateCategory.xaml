@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.CreateCategory">
+    <StackLayout Padding="10" BackgroundColor="Black">
+        <Label Text="Добавление категории" FontSize="26"></Label>
+        <StackLayout Padding="5">
+            <Label Text="Введите название категории" FontSize="22" TextColor="White"></Label>
+            <Entry Placeholder="Название..." PlaceholderColor="White" TextColor="White" x:Name="enterName" ></Entry>
+            <Button Text="Добавить категорию " BackgroundColor="NavajoWhite" TextColor="Black" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

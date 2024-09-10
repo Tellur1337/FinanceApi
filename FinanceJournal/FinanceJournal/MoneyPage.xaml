@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceJournal.MoneyPage">
+    <ContentPage.Content Padding="10" >
+        <StackLayout BackgroundColor="Black" Padding="15">
+            <Label Text="Название операции" FontSize="26" TextColor="White"></Label>
+            <Label Text="{Binding Name}" FontSize="20" x:Name="enterName" TextColor="White"></Label>
+            <Label Text="Сумма" FontSize="26" TextColor="White"></Label>
+            <Label Text="{Binding Amount}" FontSize="20" TextColor="White" ></Label>
+            <Label Text="Категория" FontSize="26" TextColor="White"></Label>
+            <Label Text="{Binding Category}" FontSize="20" x:Name="enterDesc" TextColor="White"></Label>
+            <Label x:Name="complLabel" Text="Время" FontSize="26" TextColor="White"></Label>
+            <Label x:Name="compl" Text="{Binding DateTimeAdding}" FontSize="20" TextColor="White"></Label>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Удалить" BackgroundColor="NavajoWhite" TextColor="Black" Clicked="Delete"/>
+                <Button Text="Отмена" BackgroundColor="NavajoWhite" TextColor="Black" Clicked="Back"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

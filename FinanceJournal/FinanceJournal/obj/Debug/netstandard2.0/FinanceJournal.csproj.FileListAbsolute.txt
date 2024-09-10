@@ -1,0 +1,48 @@
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.deps.json
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.dll
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\ref\FinanceJournal.dll
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.pdb
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.AssemblyInfo.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.sourcelink.json
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.dll
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\refint\FinanceJournal.dll
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.pdb
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\DeleteMoney.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\Encrease\CreateEncrease.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\Encrease\EncreasePage.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\Income\CreateIncome.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\Income\IncomesPage.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\CategoriesPage.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\CreateCategory.xaml.g.cs
+C:\Users\User\source\repos\FinanceJournal\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\DeleteCategory.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.csproj.AssemblyReference.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\CategoriesPage.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\CreateCategory.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\DeleteCategory.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.AssemblyInfoInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.AssemblyInfo.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.csproj.CoreCompileInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.sourcelink.json
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\refint\FinanceJournal.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\FinanceJournal.pdb
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.deps.json
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\ref\FinanceJournal.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\bin\Debug\netstandard2.0\FinanceJournal.pdb
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MoneyPage.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MoneyOperations\Encrease\CreateEncrease.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MoneyOperations\Encrease\EncreasePage.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MoneyOperations\Income\CreateIncome.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab3\Finance\FinanceJournal\FinanceJournal\obj\Debug\netstandard2.0\MoneyOperations\Income\IncomesPage.xaml.g.cs
